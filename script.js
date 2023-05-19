@@ -8,7 +8,6 @@ function main()
     span.innerHTML=`${tip}%`;
     var value=((tip)/100)*input;
     tipvalue.innerHTML=`Tip Value = ${value}`;
-    var totalamount=parseInt(value)+parseInt(input);
+    var totalamount= Number(value+input);
     input1.value=totalamount;
 }
-
